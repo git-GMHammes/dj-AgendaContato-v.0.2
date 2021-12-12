@@ -1,0 +1,45 @@
+<!--Caminho: ↓ C:\xampp\htdocs\projeto\python\_Desen\djAgPy\djTemplates\tempIndex.html-->
+<!--Começa ↓ estendendo o \djTemplates\tempIndex.html-->
+{%extends 'tempIndex.html'%}
+<!--Bloco ↓ que será puxado no \djTemplates\tempIndex.html-->
+{%block conteudo%}
+<h1 class="mt-5">
+  Minha agenda </h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nome </th ></th>
+        <th>Sobrenome </th ></th>
+        <th>Telefone </th></th>
+        <th>Categoria </th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a href="#"> João</a>
+        </td>
+        <td>Miranda</td>
+        <td>35 9 5555-5555</td>
+        <td>Família</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#"> Leandro</a>
+        </td>
+        <td>Moreira</td>
+        <td>35 9 8888-5555</td>
+        <td>Família</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#"> Fátima</a>
+        </td>
+        <td>Oliveira</td>
+        <td>35 9 9999-4352</td>
+        <td>Conhecidos</td>
+      </tr>
+    </tbody>
+  </table>
+</h1>
+{%endblock%}
